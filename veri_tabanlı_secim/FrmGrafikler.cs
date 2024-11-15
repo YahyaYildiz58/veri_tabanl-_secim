@@ -18,7 +18,7 @@ namespace veri_tabanlı_secim
             InitializeComponent();
         }
 
-        SqlConnection baglanti = new SqlConnection(@"Data Source=YAHYA\YAHYAMSSQL;Initial Catalog=dbsecimproje;Integrated Security=True;TrustServerCertificate=True");
+        SqlConnection baglanti = new SqlConnection(@"Data Source=**;Initial Catalog=dbsecimproje;Integrated Security=True;TrustServerCertificate=True");
         private void FrmGrafikler_Load(object sender, EventArgs e)
         {
             // ilçe adlarını combobox a çekme
